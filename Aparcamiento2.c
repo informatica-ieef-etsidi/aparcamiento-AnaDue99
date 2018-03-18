@@ -1,4 +1,4 @@
-//Desarrollador: Ana Dueñas
+//Desarrollador: Ana DueÃ±as
 #include <stdio.h>
 #include <Windows.h>
 #include <string.h>
@@ -231,7 +231,7 @@ void main() {
 					printf("Ha escogido sacar una moto\n");
 					if (k == 1 && l == 0) { //Si solo hay un coche 
 						printf("Solo hay una moto en el parking\n\n");
-						printf("El moto de la plaza 3 ha salido\n\n");
+						printf("La moto de la plaza 3 ha salido\n\n");
 						k = k--;
 
 					}
@@ -306,7 +306,7 @@ void main() {
 			break;
 		case 'S':
 		case 's':
-			printf("Ha decidido salir del programa.\n\t ¡Hasta la proxima!\n\n");
+			printf("Ha decidido salir del programa.\n\t Â¡Hasta la proxima!\n\n");
 			getchar();
 			break;
 		case 'B':
