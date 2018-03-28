@@ -1,4 +1,4 @@
-//Desarrollador: Ana Dueñas
+//Desarrollador: Ana DueÃ±as
 //Comentario: Al imprimir utilizo un +1 para que las plazas vayan de 1 al numero deseado, y no de 0 a uno menos
 #include <stdio.h>
 #include <Windows.h>
@@ -22,7 +22,7 @@ void main() {
 	struct Tplaza coche[NUMPLAZASC], moto[NUMPLAZASM];
 	struct TAux aux;
 
-	int plaza, i = 0, j = 0, k=0, auxx = 0, comp1, comp2;//i y j de coches, k y l de motos. Comp para comparar cadenas
+	int  i = 0, j = 0, k=0, auxx = 0, comp1, comp2;
 	char opcion;
 	do {
 		printf("Seleccione una de estas opciones :\n	R - Reservar plaza\n	A - Abandonar plaza\n	E - Estado del aparcamiento\n	B - Buscar vehiculo por matricula\n	S - Salir del programa\n");
@@ -86,7 +86,7 @@ void main() {
 						if (coche[j].estado == 0) {
 							auxx = j; 
 							}
-						else { //Si no hay huecos anteriores auxx será el i, es decir el numero en orden de la plaza
+						else { //Si no hay huecos anteriores auxx serÃ¡ el i, es decir el numero en orden de la plaza
 							auxx = i;
 							i = i++;//Variable para ir aumentando el numero de plazas abarcadas
 						}
@@ -226,7 +226,7 @@ void main() {
 			break;
 		case 'S':
 		case 's':
-			printf("Ha decidido salir del programa.\n\t ¡Hasta la proxima!\n\n");
+			printf("Ha decidido salir del programa.\n\t Â¡Hasta la proxima!\n\n");
 			getchar();
 			break;
 		case 'B':
