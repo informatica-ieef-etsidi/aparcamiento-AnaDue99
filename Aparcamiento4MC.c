@@ -208,18 +208,18 @@ void main() {
 			printf("\tCOCHES:\n");
 			for (j = 0; j < NUMPLAZASC; j++) {//Recorre todas las plazas de coche
 				if (coche[j].estado == 1) {
-					printf("PLAZA %d\t-\tcoche de matricula %s\n", j + 1, coche[j].matricula);
+					printf("PLAZA %2d\t-\tcoche de matricula %s\n", j + 1, coche[j].matricula);
 				}
 				else
-					printf("PLAZA %d\t-\tLIBRE\n", j + 1);
+					printf("PLAZA %2d\t-\tLIBRE\n", j + 1);
 			}
 			printf("\tMOTOS:\n");
 			for (j = 0; j < NUMPLAZASM; j++) {//Recorre todas las plazas de moto
 				if (moto[j].estado == 1) {
-					printf("PLAZA %d\t-\tmoto de matricula %s\n", j + 1, moto[j].matricula);
+					printf("PLAZA %2d\t-\tmoto de matricula %s\n", j + 1, moto[j].matricula);
 				}
 				else
-					printf("PLAZA %d\t-\tLIBRE\n", j + 1);
+					printf("PLAZA %2d\t-\tLIBRE\n", j + 1);
 			}
 
 			getchar();
