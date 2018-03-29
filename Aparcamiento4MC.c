@@ -94,7 +94,7 @@ void main() {
 						strcpy_s(coche[auxx].matricula, 8, aux.matricula);//Copia la matricula introducida en su memoria como matricula registrada
 						coche[auxx].tipo = aux.tipo; //Lo mismo con el tipo
 						coche[auxx].estado = 1; //El estado de esta plaza ahora es lleno
-						printf("Ahora el vehiculo con matricula %s se encuentra en la plaza %d de coche ", coche[auxx].matricula, auxx + 1);
+						printf("Ahora el vehiculo con matricula %s se encuentra en la plaza %d de coche\n", coche[auxx].matricula, auxx + 1);
 
 					}
 
@@ -150,7 +150,7 @@ void main() {
 							strcpy_s(moto[auxx].matricula, 8, aux.matricula);
 							moto[auxx].tipo = aux.tipo;
 							moto[auxx].estado = 1;
-							printf("Ahora el vehiculo con matricula %s se encuentra en la plaza %d de moto ", moto[auxx].matricula, auxx + 1, moto[auxx].tipo);
+							printf("Ahora el vehiculo con matricula %s se encuentra en la plaza %d de moto\n", moto[auxx].matricula, auxx + 1, moto[auxx].tipo);
 
 						}
 					}
